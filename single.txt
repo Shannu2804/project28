@@ -1,0 +1,40 @@
+
+
+
+
+class marks extends student{
+float tot;
+float avg;
+marks(){
+tot=0;
+avg=0;
+}
+
+marks(intn,String N,char G,floats1,floats2,floats3){
+super(n,N,G,s1,s2,s3);
+calculater();
+}
+void calculater(){
+tot=S1+S2+S3;
+avg=tot/3;
+}
+//void Display(){
+void DispResult(){
+DisplayStudent();
+//calculater();
+//super Display();
+Systeam.out.println("Student Total Marks:"+ tot);
+Systeam.ot.println("student Avg Marks:'+ avg);
+}
+}
+class Single{
+public static void main(String args[]){
+Marks Stu1=new Marks(1,"Ram naryan","'M',85,95,99);
+Stu1.disp Result();
+//Stu1.Display();
+Marks Stu2=new Marks();
+Stu2.disp Result();
+//Stu2.display();
+}
+}
+
